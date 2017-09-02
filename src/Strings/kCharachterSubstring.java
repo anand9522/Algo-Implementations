@@ -11,7 +11,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+ class Solution {
 
     static String subsequenceAgain(String s, int k) {
         // Complete this function
