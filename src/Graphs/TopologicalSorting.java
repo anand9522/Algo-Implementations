@@ -9,10 +9,10 @@ import java.util.Map;
  * Created by anand on 01/09/17.
  */
 public class TopologicalSorting {
-    public enum Status {VISITED, VISITING, NEW}
+    private enum Status {VISITED, VISITING, NEW}
 
     public Map<Integer, Node> integerNodeMap = new HashMap<>();
-    class Node{
+    private class Node{
          int nodeNumber=-1;
          ArrayList<Node> nextNodes = new ArrayList<>();
          Status status=Status.NEW;

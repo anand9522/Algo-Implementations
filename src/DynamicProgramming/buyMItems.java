@@ -1,4 +1,4 @@
-package Graphs;
+package DynamicProgramming;
 
 /**
  * Created by anand on 02/09/17.
