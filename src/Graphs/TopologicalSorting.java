@@ -38,7 +38,7 @@ public class TopologicalSorting {
         else if (node.status == Status.NEW){
             node.status = Status.VISITING;
             for (Node nextNode:node.nextNodes){
-                if (topologicalDFS(node,topologicalSort)==-1){
+                if (topologicalDFS(nextNode,topologicalSort)==-1){
                     return -1;
                 }
                 topologicalSort.add(nextNode.nodeNumber);

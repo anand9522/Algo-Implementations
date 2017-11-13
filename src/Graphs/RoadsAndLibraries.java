@@ -58,7 +58,7 @@ public class RoadsAndLibraries {
                 }
             }
             System.out.println(answer);
-            integerNodeHashMap.clear();
+            integerNodeHashMap=new HashMap<>();
         }
 
     }
